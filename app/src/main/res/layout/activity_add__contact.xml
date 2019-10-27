@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:hint="Enter Name"
+            android:textColorHint="@color/textcolor">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Number"
+            android:textColorHint="@color/textcolor">
+        </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email"
+        android:textColorHint="@color/textcolor">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="20dp"
+        android:onClick="Save"
+        android:id="@+id/Save"
+        android:layout_marginLeft="300dp"
+        >
+
+    </Button>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
